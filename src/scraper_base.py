@@ -27,4 +27,4 @@ class BaseScraper:
         raise NotImplementedError("Subclass must implement parse_jobs()")
 
 if __name__ == "__main__":
-    print("✅ Base scraper initialized!")
+    print("✅ Base scraper initialized")
