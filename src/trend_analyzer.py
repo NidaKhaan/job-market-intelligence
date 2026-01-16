@@ -233,7 +233,7 @@ class TrendAnalyzer:
             FROM jobs
             WHERE scraped_at >= NOW() - INTERVAL '7 days'
             GROUP BY DATE(scraped_at)
-            ORDER  date DESC
+            ORDER BY date DESC
             LIMIT 7
         """)
         
